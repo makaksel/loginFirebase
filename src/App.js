@@ -26,7 +26,7 @@ function App() {
 
             <Routes>
 
-                <Route path="/" element={<Login/>}/>
+                <Route path="/loginFirebaseTEST" element={<Login/>}/>
                 <Route path="/signUp" element={<SignUp/>}/>
                 <Route path="/success" element={<Success/>}/>
 

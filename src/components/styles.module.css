@@ -1,0 +1,48 @@
+
+.card{
+    max-width: 450px;
+    width: 100%;
+    margin: 50px auto 10px;
+    padding: 15px;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+
+}
+
+
+.card h2{
+    margin: 0 0 15px;
+}
+
+.formControl{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+.input{
+    transition: outline .3s ease-in-out, border .3s ease-in-out;
+    outline: 1px solid #ccc;
+    border-radius: .5rem;
+    border: 0;
+    padding: .5rem;
+}
+
+.input:focus{
+    outline: 2px solid #222;
+}
+
+.btn{
+    background-color: dodgerblue;
+    border: none;
+    padding: 10px 15px;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover, .btn:active{
+    background-color: #1877d5;
+}
